@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  background: #333;
+}
+
+.container {
+  width: 70%;
+  margin: 20% auto 0;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+kbd {
+  padding: 4px;
+  border-radius: 4px;
+  background: #777;
+}
